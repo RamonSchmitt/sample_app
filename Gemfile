@@ -1,14 +1,15 @@
 source 'https://rubygems.org'
 
-gem 'rails',        '>= 5.0.0.rc2', '< 5.1'
+gem 'rails',          '>= 5.0.0.rc2', '< 5.1'
+gem 'bcrypt',         '3.1.7'
 gem 'bootstrap-sass', '3.2.0.0'
-gem 'puma',         '3.4.0'
-gem 'sass-rails',   '5.0.4'
-gem 'uglifier',     '3.0.0'
-gem 'coffee-rails', '4.1.1'
-gem 'jquery-rails', '4.1.1'
-gem 'turbolinks',   '5.0.0.beta2'
-gem 'jbuilder',     '2.4.1'
+gem 'puma',           '3.4.0'
+gem 'sass-rails',     '5.0.4'
+gem 'uglifier',       '3.0.0'
+gem 'coffee-rails',   '4.1.1'
+gem 'jquery-rails',   '4.1.1'
+gem 'turbolinks',     '5.0.0.beta2'
+gem 'jbuilder',       '2.4.1'
 
 group :development, :test do
   gem 'sqlite3', '1.3.11'
